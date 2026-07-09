@@ -1,0 +1,13 @@
+{
+  "name": "nota-volatile",
+  "version": "1.0.0",
+  "description": "Condivisore di appunti volatili con timer e codice usa e getta",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
