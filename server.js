@@ -47,7 +47,7 @@ app.get('/robots.txt', (req, res) => {
   res.type('text/plain');
   res.send(`User-agent: *
 Allow: /
-Sitemap: https://cristianporco.it/app/nota-volatile/sitemap.xml
+Sitemap: https://github.com/bonciarello/nota-volatile/sitemap.xml
 `);
 });
 
@@ -57,12 +57,12 @@ app.get('/sitemap.xml', (req, res) => {
   res.send(`<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cristianporco.it/app/nota-volatile/</loc>
+    <loc>https://github.com/bonciarello/nota-volatile/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://cristianporco.it/app/nota-volatile/view.html</loc>
+    <loc>https://github.com/bonciarello/nota-volatile/view.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
